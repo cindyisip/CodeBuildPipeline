@@ -19,6 +19,8 @@ aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --
 # 4. Push the image to AWS ECR
 docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/${REPO_NAME}:latest
 
+# 5 Running Test 1
+
 
 
 
